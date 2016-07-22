@@ -2032,7 +2032,8 @@ $(document).ready(function() {
     })(this)
   };
   router = Router(routes);
-  return router.init('/doc');
+  // return router.init('/doc');
+  return router.init('/editor')
 });
 
 
